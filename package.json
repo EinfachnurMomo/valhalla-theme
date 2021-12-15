@@ -1,0 +1,35 @@
+{
+    "name": "valhalla-theme",
+    "displayName": "Valhalla Theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "publisher": "EinfachNurMomo",
+    "categories": [
+        "Themes"
+    ],
+    "galleryBanner": {
+        "color": "#0C1016",
+        "theme": "dark"
+    },
+    "bugs": {
+        "url": "https://github.com/EinfachnurMomo/Valhalla-VSCode-Theme/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/EinfachnurMomo/Valhalla-VSCode-Theme"
+    },
+    "icon": "icon.png",
+    "keywords": ["valhalla", "theme"],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Valhalla Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Valhalla Theme-color-theme.json"
+            }
+        ]
+    }
+}
