@@ -2,18 +2,21 @@
 	"name": "Valhalla Theme",
 	"type": "dark",
 	"colors": {
+		//#222831, #2b2e31, #292b2e, #2e3135, #34383d, 
+		//#D65A31, #e46135, #9e9d9d, #cecece
+		
 		// Contrast colors
 		"contrastActiveBorder": "#ff0000", // An extra border around active elements to separate them from others for greater contrast.
-		"contrastBorder": "#ff0000", // An extra border around elements to separate them from others for greater contrast.
+		"contrastBorder": "#222831", // An extra border around elements to separate them from others for greater contrast.
 
 		// Base colors
 		"focusBorder": "#ff0000", // Overall border color for focused elements. This color is only used if not overridden by a component.
-		"foreground": "#ff0000", // Overall foreground color. This color is only used if not overridden by a component.
+		"foreground": "#cecece", // Overall foreground color. This color is only used if not overridden by a component.
 		"widget.shadow": "#ff0000", // Shadow color of widgets such as Find/Replace inside the editor.
 		"selection.background": "#ff0000", // Background color of text selections in the workbench (for input fields or text areas, does not apply to selections within the editor and the terminal).
 		"descriptionForeground": "#ff0000", // Foreground color for description text providing additional information, for example for a label.
 		"errorForeground": "#ff0000", // Overall foreground color for error messages (this color is only used if not overridden by a component).
-		"icon.foreground": "#ff0000", // The default color for icons in the workbench.
+		"icon.foreground": "#cecece", // The default color for icons in the workbench.
 		"sash.hoverBorder": "#ff0000", // The hover border color for draggable sashes.
 
 		// Window border
@@ -21,30 +24,30 @@
 		"window.inactiveBorder": "#ff0000", // Border color for the inactive (unfocused) windows.
 
 		// Text colors
-		"textBlockQuote.background": "#ff0000", // Background color for block quotes in text.
-		"textBlockQuote.border": "#ff0000", // Border color for block quotes in text.
+		"textBlockQuote.background": "#34383d", // Background color for block quotes in text.
+		"textBlockQuote.border": "#D65A31", // Border color for block quotes in text.
 		"textCodeBlock.background": "#ff0000", // Background color for code blocks in text.
-		"textLink.activeForeground": "#ff0000", // Foreground color for links in text when clicked on and on mouse hover.
-		"textLink.foreground": "#ff0000", // Foreground color for links in text.
-		"textPreformat.foreground": "#ff0000", // Foreground color for preformatted text segments.
-		"textSeparator.foreground": "#ff0000", // Color for text separators.
+		"textLink.activeForeground": "#D65A31", // Foreground color for links in text when clicked on and on mouse hover.
+		"textLink.foreground": "#D65A31", // Foreground color for links in text.
+		"textPreformat.foreground": "#D65A31", // Foreground color for preformatted text segments.
+		"textSeparator.foreground": "#D65A31", // Color for text separators.
 
 		// Action colors
 		"toolbar.hoverBackground": "#ff0000", // Toolbar background when hovering over actions using the mouse
 		"toolbar.hoverOutline": "#ff0000", // Toolbar outline when hovering over actions using the mouse
 		"toolbar.activeBackground": "#ff0000", // Toolbar background when holding the mouse over actions
-				
+
 		// Button control
-		"button.background": "#ff0000", // Button background color.
-		"button.foreground": "#ff0000", // Button foreground color.
-		"button.border": "#ff0000", // Button border color.
-		"button.hoverBackground": "#ff0000", // Button background color when hovering.
-		"button.secondaryForeground": "#ff0000", // Secondary button foreground color.
-		"button.secondaryBackground": "#ff0000", // Secondary button background color.
-		"button.secondaryHoverBackground": "#ff0000", // Secondary button background color when hovering.
-		"checkbox.background": "#ff0000", // Background color of checkbox widget.
-		"checkbox.foreground": "#ff0000", // Foreground color of checkbox widget.
-		"checkbox.border": "#ff0000", // Border color of checkbox widget.
+		"button.background": "#D65A31", // Button background color.
+		"button.foreground": "#cecece", // Button foreground color.
+		"button.border": "#D65A31", // Button border color.
+		"button.hoverBackground": "#e46135", // Button background color when hovering.
+		"button.secondaryForeground": "#cecece", // Secondary button foreground color.
+		"button.secondaryBackground": "#D65A31", // Secondary button background color.
+		"button.secondaryHoverBackground": "#e46135", // Secondary button background color when hovering.
+		"checkbox.background": "#34383d", // Background color of checkbox widget.
+		"checkbox.foreground": "#cecece", // Foreground color of checkbox widget.
+		"checkbox.border": "#34383d", // Border color of checkbox widget.
 
 		// Dropdown control
 		"dropdown.background": "#ff0000", // Dropdown background.
@@ -113,28 +116,28 @@
 		"tree.indentGuidesStroke": "#ff0000", // Tree Widget's stroke color for indent guides.
 		"tree.tableColumnsBorder": "#ff0000", // Tree stroke color for the indentation guides.
 		"tree.tableOddRowsBackground": "#ff0000", // Background color for odd table rows.
-
+		
 		// Active Bar
-		"activityBar.background": "#ff0000", // Activity Bar background color.
+		"activityBar.background": "#2e3135", // Activity Bar background color.
 		"activityBar.dropBorder": "#ff0000", // Drag and drop feedback color for the activity bar items. The activity bar is showing on the far left or right and allows to switch between views of the side bar.
-		"activityBar.foreground": "#ff0000", // Activity Bar foreground color (for example used for the icons).
-		"activityBar.inactiveForeground": "#ff0000", // Activity Bar item foreground color when it is inactive.
-		"activityBar.border": "#ff0000", // Activity Bar border color with the Side Bar.
-		"activityBarBadge.background": "#ff0000", // Activity notification badge background color.
-		"activityBarBadge.foreground": "#ff0000", // Activity notification badge foreground color.
-		"activityBar.activeBorder": "#ff0000", // Activity Bar active indicator border color.
-		"activityBar.activeBackground": "#ff0000", // Activity Bar optional background color for the active element.
+		"activityBar.foreground": "#D65A31", // Activity Bar foreground color (for example used for the icons).
+		"activityBar.inactiveForeground": "#9e9d9d", // Activity Bar item foreground color when it is inactive.
+		"activityBar.border": "#2e3135", // Activity Bar border color with the Side Bar.
+		"activityBarBadge.background": "#D65A31", // Activity notification badge background color.
+		"activityBarBadge.foreground": "#cecece", // Activity notification badge foreground color.
+		"activityBar.activeBorder": "#9e9d9d", // Activity Bar active indicator border color.
+		"activityBar.activeBackground": "#2e3135", // Activity Bar optional background color for the active element.
 		"activityBar.activeFocusBorder": "#ff0000", // Activity bar focus border color for the active item.
-
+		
 		// Side Bar
-		"sideBar.background": "#ff0000", // Side Bar background color.
-		"sideBar.foreground": "#ff0000", // Side Bar foreground color. The Side Bar is the container for views like Explorer and Search.
-		"sideBar.border": "#ff0000", // Side Bar border color on the side separating the editor.
+		"sideBar.background": "#292b2e", // Side Bar background color.
+		"sideBar.foreground": "#cecece", // Side Bar foreground color. The Side Bar is the container for views like Explorer and Search.
+		"sideBar.border": "#292b2e", // Side Bar border color on the side separating the editor.
 		"sideBar.dropBackground": "#ff0000", // Drag and drop feedback color for the side bar sections. The color should have transparency so that the side bar sections can still shine through.
-		"sideBarTitle.foreground": "#ff0000", // Side Bar title foreground color.
-		"sideBarSectionHeader.background": "#ff0000", // Side Bar section header background color.
-		"sideBarSectionHeader.foreground": "#ff0000", // Side Bar section header foreground color.
-		"sideBarSectionHeader.border": "#ff0000", // Side bar section header border color.
+		"sideBarTitle.foreground": "#cecece", // Side Bar title foreground color.
+		"sideBarSectionHeader.background": "#292b2e", // Side Bar section header background color.
+		"sideBarSectionHeader.foreground": "#cecece", // Side Bar section header foreground color.
+		"sideBarSectionHeader.border": "#9e9d9d", // Side bar section header border color.
 
 		// Minimap
 		"minimap.findMatchHighlight": "#ff0000", // Highlight color for matches from search within files.
@@ -151,29 +154,29 @@
 		"minimapGutter.addedBackground": "#ff0000", // Minimap gutter color for added content.
 		"minimapGutter.modifiedBackground": "#ff0000", // Minimap gutter color for modified content.
 		"minimapGutter.deletedBackground": "#ff0000", // Minimap gutter color for deleted content.
-
+		
 		// Editor Groups & Tabs
-		"editorGroup.border": "#ff0000", // Color to separate multiple editor groups from each other.
+		"editorGroup.border": "#9e9d9d", // Color to separate multiple editor groups from each other.
 		"editorGroup.dropBackground": "#ff0000", // Background color when dragging editors around.
 		"editorGroupHeader.noTabsBackground": "#ff0000", // Background color of the editor group title header when Tabs are disabled (set "workbench.editor.showTabs": false).
-		"editorGroupHeader.tabsBackground": "#ff0000", // Background color of the Tabs container.
-		"editorGroupHeader.tabsBorder": "#ff0000", // Border color below the editor tabs control when tabs are enabled.
-		"editorGroupHeader.border": "#ff0000", // Border color between editor group header and editor (below breadcrumbs if enabled).
+		"editorGroupHeader.tabsBackground": "#292b2e", // Background color of the Tabs container.
+		"editorGroupHeader.tabsBorder": "#292b2e", // Border color below the editor tabs control when tabs are enabled.
+		"editorGroupHeader.border": "#292b2e", // Border color between editor group header and editor (below breadcrumbs if enabled).
 		"editorGroup.emptyBackground": "#ff0000", // Background color of an empty editor group.
 		"editorGroup.focusedEmptyBorder": "#ff0000", // Border color of an empty editor group that is focused.
-		"tab.activeBackground": "#ff0000", // Active Tab background color in an active group.
-		"tab.unfocusedActiveBackground": "#ff0000", // Active Tab background color in an inactive editor group.
-		"tab.activeForeground": "#ff0000", // Active Tab foreground color in an active group.
-		"tab.border": "#ff0000", // Border to separate Tabs from each other.
-		"tab.activeBorder": "#ff0000", // Bottom border for the active tab.
-		"tab.unfocusedActiveBorder": "#ff0000", // Bottom border for the active tab in an inactive editor group.
-		"tab.activeBorderTop": "#ff0000", // Top border for the active tab.
-		"tab.unfocusedActiveBorderTop": "#ff0000", // Top border for the active tab in an inactive editor group
+		"tab.activeBackground": "#222831", // Active Tab background color in an active group.
+		"tab.unfocusedActiveBackground": "#222831", // Active Tab background color in an inactive editor group.
+		"tab.activeForeground": "#cecece", // Active Tab foreground color in an active group.
+		"tab.border": "#292b2e", // Border to separate Tabs from each other.
+		"tab.activeBorder": "#222831", // Bottom border for the active tab.
+		"tab.unfocusedActiveBorder": "#222831", // Bottom border for the active tab in an inactive editor group.
+		"tab.activeBorderTop": "#222831", // Top border for the active tab.
+		"tab.unfocusedActiveBorderTop": "#222831", // Top border for the active tab in an inactive editor group
 		"tab.lastPinnedBorder": "#ff0000", // Border on the right of the last pinned editor to separate from unpinned editors.
 		"tab.inactiveBackground": "#ff0000", // Inactive Tab background color.
 		"tab.unfocusedInactiveBackground": "#ff0000", // Inactive Tab background color in an unfocused group
 		"tab.inactiveForeground": "#ff0000", // Inactive Tab foreground color in an active group.
-		"tab.unfocusedActiveForeground": "#ff0000", // Active tab foreground color in an inactive editor group.
+		"tab.unfocusedActiveForeground": "#9e9d9d", // Active tab foreground color in an inactive editor group.
 		"tab.unfocusedInactiveForeground": "#ff0000", // Inactive tab foreground color in an inactive editor group.
 		"tab.hoverBackground": "#ff0000", // Tab background color when hovering
 		"tab.unfocusedHoverBackground": "#ff0000", // Tab background color in an unfocused group when hovering
@@ -190,7 +193,7 @@
 		"sideBySideEditor.verticalBorder": "#ff0000", // Color to separate two editors from each other when shown side by side in an editor group from left to right.
 
 		// Editor colors
-		"editor.background": "#ff0000", // Editor background color.
+		"editor.background": "#222831", // Editor background color.
 		"editor.foreground": "#ff0000", // Editor default foreground color.
 		"editorLineNumber.foreground": "#ff0000", // Color of editor line numbers.
 		"editorLineNumber.activeForeground": "#ff0000", // Color of the active editor line number.
@@ -400,23 +403,23 @@
 		"statusBarItem.warningForeground": "#ff0000", // Status bar warning items foreground color. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window.
 
 		// Title Bar colors
-		"titleBar.activeBackground": "#ff0000", // Title Bar background when the window is active.
-		"titleBar.activeForeground": "#ff0000", // Title Bar foreground when the window is active.
-		"titleBar.inactiveBackground": "#ff0000", // Title Bar background when the window is inactive.
-		"titleBar.inactiveForeground": "#ff0000", // Title Bar foreground when the window is inactive.
-		"titleBar.border": "#ff0000", // Title bar border color.
+		"titleBar.activeBackground": "#34383d", // Title Bar background when the window is active.
+		"titleBar.activeForeground": "#cecece", // Title Bar foreground when the window is active.
+		"titleBar.inactiveBackground": "#2e3135", // Title Bar background when the window is inactive.
+		"titleBar.inactiveForeground": "#9e9d9d", // Title Bar foreground when the window is inactive.
+		"titleBar.border": "#34383d", // Title bar border color.
 
 		// Menu Bar colors
-		"menubar.selectionForeground": "#ff0000", // Foreground color of the selected menu item in the menubar.
-		"menubar.selectionBackground": "#ff0000", // Background color of the selected menu item in the menubar.
-		"menubar.selectionBorder": "#ff0000", // Border color of the selected menu item in the menubar.
-		"menu.foreground": "#ff0000", // Foreground color of menu items.
-		"menu.background": "#ff0000", // Background color of menu items.
-		"menu.selectionForeground": "#ff0000", // Foreground color of the selected menu item in menus.
-		"menu.selectionBackground": "#ff0000", // Background color of the selected menu item in menus.
-		"menu.selectionBorder": "#ff0000", // Border color of the selected menu item in menus.
-		"menu.separatorBackground": "#ff0000", // Color of a separator menu item in menus.
-		"menu.border": "#ff0000", // Border color of menus.
+		"menubar.selectionForeground": "#cecece", // Foreground color of the selected menu item in the menubar.
+		"menubar.selectionBackground": "#34383d", // Background color of the selected menu item in the menubar.
+		"menubar.selectionBorder": "#34383d", // Border color of the selected menu item in the menubar.
+		"menu.foreground": "#cecece", // Foreground color of menu items.
+		"menu.background": "#34383d", // Background color of menu items.
+		"menu.selectionForeground": "#cecece", // Foreground color of the selected menu item in menus.
+		"menu.selectionBackground": "#D65A31", // Background color of the selected menu item in menus.
+		"menu.selectionBorder": "#D65A31", // Border color of the selected menu item in menus.
+		"menu.separatorBackground": "#cecece", // Color of a separator menu item in menus.
+		"menu.border": "#34383d", // Border color of menus.
 		
 		// Notification colors
 		"notificationCenter.border": "#ff0000", // Notification Center border color.
@@ -491,7 +494,7 @@
 		"terminalCursor.foreground": "#ff0000", // The foreground color of the terminal cursor.
 		"terminal.dropBackground": "#ff0000", // The background color when dragging on top of terminals. The color should have transparency so that the terminal contents can still shine through.
 		"terminal.tab.activeBorder": "#ff0000", // Border on the side of the terminal tab in the panel. This defaults to tab.activeBorder.
-		
+
 		// Debug colors
 		"debugToolBar.background": "#ff0000", // Debug toolbar background color.
 		"debugToolBar.border": "#ff0000", // Debug toolbar border color.
@@ -525,15 +528,15 @@
 		"testing.message.error.lineBackground": "#ff0000", // Margin color beside error messages shown inline in the editor.
 		"testing.message.info.decorationForeground": "#ff0000", // Text color of test info messages shown inline in the editor.
 		"testing.message.info.lineBackground": "#ff0000", // Margin color beside info messages shown inline in the editor.
-		
+
 		// Welcome page colors
-		"welcomePage.background": "#ff0000", // Background color for the Welcome page.
-		"welcomePage.progress.background": "#ff0000", // Foreground color for the Welcome page progress bars.
-		"welcomePage.progress.foreground": "#ff0000", // Background color for the Welcome page progress bars.
-		"welcomePage.tileBackground": "#ff0000", // Background color for the tiles on the Get Started page.
-		"welcomePage.tileHoverBackground": "#ff0000", // Hover background color for the tiles on the Get Started.
-		"welcomePage.tileShadow": "#ff0000", // Shadow color for the Welcome page walkthrough category buttons.
-		"walkThrough.embeddedEditorBackground": "#ff0000", // Background color for the embedded editors on the Interactive Playground.
+		"welcomePage.background": "#222831", // Background color for the Welcome page.
+		"welcomePage.progress.background": "#34383d", // Foreground color for the Welcome page progress bars.
+		"welcomePage.progress.foreground": "#D65A31", // Background color for the Welcome page progress bars.
+		"welcomePage.tileBackground": "#292e36", // Background color for the tiles on the Get Started page.
+		"welcomePage.tileHoverBackground": "#292e36", // Hover background color for the tiles on the Get Started.
+		"welcomePage.tileShadow": "#292e36", // Shadow color for the Welcome page walkthrough category buttons.
+		"walkThrough.embeddedEditorBackground": "#292e36", // Background color for the embedded editors on the Interactive Playground.
 
 		// Source Control colors
 		"scm.providerBorder": "#ff0000", // SCM Provider separator border.
