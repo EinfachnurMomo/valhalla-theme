@@ -2,8 +2,13 @@
 	"name": "Valhalla Theme",
 	"type": "dark",
 	"colors": {
-		//#222831, #2b2e31, #292b2e, #2e3135, #34383d, 
-		//#D65A31, #e46135, #9e9d9d, #cecece
+		/*
+			Color codes
+			
+			#222831, #2b2e31, #292b2e, #2e3135, #34383d, 
+			#D65A31, #e46135, #9e9d9d, #cecece
+		*/
+		
 		
 		// Contrast colors
 		"contrastActiveBorder": "#ff0000", // An extra border around active elements to separate them from others for greater contrast.
