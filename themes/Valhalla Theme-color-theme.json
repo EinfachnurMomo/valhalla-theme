@@ -425,19 +425,21 @@
 		"menu.selectionBorder": "#D65A31", // Border color of the selected menu item in menus.
 		"menu.separatorBackground": "#cecece", // Color of a separator menu item in menus.
 		"menu.border": "#34383d", // Border color of menus.
-		
+		//#222831, #2b2e31, #292b2e, #2e3135, #34383d, 
+		//#D65A31, #e46135, #9e9d9d, #cecece,  
+		//#ff0000 Rot, #ffee00 Gelb, #09ff00 Grün
 		// Notification colors
 		"notificationCenter.border": "#ff0000", // Notification Center border color.
 		"notificationCenterHeader.foreground": "#ff0000", // Notification Center header foreground color.
 		"notificationCenterHeader.background": "#ff0000", // Notification Center header background color.
-		"notificationToast.border": "#ff0000", // Notification toast border color.
-		"notifications.foreground": "#ff0000", // Notification foreground color.
-		"notifications.background": "#ff0000", // Notification background color.
+		"notificationToast.border": "#292b2e", // Notification toast border color.
+		"notifications.foreground": "#cecece", // Notification foreground color.
+		"notifications.background": "#292b2e", // Notification background color.
 		"notifications.border": "#ff0000", // Notification border color separating from other notifications in the Notification Center.
 		"notificationLink.foreground": "#ff0000", // Notification links foreground color.
 		"notificationsErrorIcon.foreground": "#ff0000", // The color used for the notification error icon.
-		"notificationsWarningIcon.foreground": "#ff0000", // The color used for the notification warning icon.
-		"notificationsInfoIcon.foreground": "#ff0000", // The color used for the notification info icon.
+		"notificationsWarningIcon.foreground": "#ffee00", // The color used for the notification warning icon.
+		"notificationsInfoIcon.foreground": "#09ff00", // The color used for the notification info icon.
 		
 		// Banner colors
 		"banner.background": "#ff0000", // Banner background color.
